@@ -9,6 +9,9 @@ This project works under the assumption that the stock market is, in some ways, 
 
 Please note that the data I used for this project came from the EOD product of [data.nasdaq.com](https://data.nasdaq.com). Seeing as it is a paid service I will not be providing the inputs or outputs of this project. Please find or purchase your own data and adjust the files as necessary if you would like to try this out for yourself.
 
+## Required Python Libraries
+`pandas`, `numpy`, and `scikit-learn`
+
 ## Order of operations
 
 1. Run `preproc.py`, importing your stock `.csv` file. This project assumes you have consistent stock data back to at least `2012-01-01`, adjust as necessary if otherwise. Column names and types are listed in the inital function of this file, adjust them as necessary for your particular dataset.
